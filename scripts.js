@@ -1,8 +1,13 @@
 let gridSize = 16;
 let gridWidth = 4;
 
+createGrid(gridWidth);
+createEventListeners();
+
 document.querySelector('#resetButton').addEventListener('click', ()=>{
     reset();
+    createGrid(gridWidth);
+    createEventListeners();
 })
 
 document.querySelector('#gridButton').addEventListener('click', ()=>{
