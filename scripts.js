@@ -1,5 +1,5 @@
-let gridSize = 16;
-let gridWidth = 4;
+let gridSize = 100;
+let gridWidth = 10;
 
 createGrid(gridWidth);
 createEventListeners();
